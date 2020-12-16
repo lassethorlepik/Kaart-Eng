@@ -1,0 +1,47 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<title>Happy Holidays and a cheerful New Year!</title>
+	<meta http-equiv="X-UA-Compatible" content="IE=edge"><meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no">
+	<link rel="shortcut icon" href="favicon.ico" type="image/x-icon" >
+	<link rel="stylesheet" href="css/animate.css">
+	<link rel="stylesheet" href="css/styles.css">
+</head>
+<body style="overflow: hidden;">
+	<div class="cvr" id="topcover">
+		<div id="ribbon1"></div>
+	</div>
+	<div class="cvr" id="bottomcover">
+		<div class="text">Click on the logo!</div>
+		<div id="ribbon2"></div>
+	</div>
+	<div style="display: block; text-align: center; position: relative; padding: 5% 0 0 0;">
+		<div style="display: inline-block; position: relative;">
+
+			<video controls src="video.mp4" style="width:70%; height:auto;" id="myVideo">
+			</video>
+		</div>
+	</div>
+	<script src="js/jquery.js"></script>
+	<script src="js/snowfall.jquery.js"></script>
+	<script src="js/scripts3860.js?v=1"></script>
+	<script>
+	window.addEventListener('click', customOnClickEvent);
+	function customOnClickEvent(){
+	var vid = document.getElementById("myVideo");
+	vid.play();
+	}
+	</script>
+<style>
+body {
+  background-image: url("images/paper-5.png");
+  background-repeat: repeat;
+}
+.cvr::after {
+cursor: pointer;
+}
+
+</style>
+</body>
+</html>

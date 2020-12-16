@@ -1,0 +1,15 @@
+Kui on soov kogu asi oma serverisse panna, siis on kõik vajalikud failid siin kaustas olemas.
+
+Juhul kui failid on oma serveris, tuleb muuta "email.html", et see viitaks uutele serveris olevatele failidele.
+
+Seal failis tuleb muuta koolonite sees lingid:
+
+href=""
+data-saferedirecturl=""
+src=""
+
+Esimesed kaks viitavad lehe aadressile kuhu klikkimisel email viib 
+Kolmas viitab emailis kuvatavale pildile lehekülje failide hulgas 
+
+
+Et emailile lisada klikitav pilt võib brauseris lihtsalt avada faili email.html, vajutada ctrl+a ctrl+c ja pastida selle emaili vajutades ctrl+v.
